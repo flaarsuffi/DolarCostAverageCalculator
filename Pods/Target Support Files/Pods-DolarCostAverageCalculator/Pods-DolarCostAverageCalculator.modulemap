@@ -1,0 +1,6 @@
+framework module Pods_DolarCostAverageCalculator {
+  umbrella header "Pods-DolarCostAverageCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
