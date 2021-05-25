@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA76083265D4CA10045545A /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA76082265D4CA10045545A /* SearchTableViewCell.swift */; };
 		2CC1BD68265C1005002035EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1BD67265C1005002035EA /* AppDelegate.swift */; };
 		2CC1BD6A265C1005002035EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1BD69265C1005002035EA /* SceneDelegate.swift */; };
 		2CC1BD6C265C1005002035EA /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1BD6B265C1005002035EA /* SearchTableViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		04195B44FF570A8F4B0F65AB /* Pods_DolarCostAverageCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolarCostAverageCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF91536C4EB237A1C7BBE6C /* Pods-DolarCostAverageCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolarCostAverageCalculator.release.xcconfig"; path = "Target Support Files/Pods-DolarCostAverageCalculator/Pods-DolarCostAverageCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		2CA76082265D4CA10045545A /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		2CC1BD64265C1005002035EA /* DolarCostAverageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolarCostAverageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC1BD67265C1005002035EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC1BD69265C1005002035EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA76080265D4C770045545A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CA76082265D4CA10045545A /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CA76081265D4C7D0045545A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CC1BD6B265C1005002035EA /* SearchTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2CC1BD5B265C1005002035EA = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +81,10 @@
 		2CC1BD66265C1005002035EA /* DolarCostAverageCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				2CA76081265D4C7D0045545A /* Controller */,
+				2CA76080265D4C770045545A /* View */,
 				2CC1BD67265C1005002035EA /* AppDelegate.swift */,
 				2CC1BD69265C1005002035EA /* SceneDelegate.swift */,
-				2CC1BD6B265C1005002035EA /* SearchTableViewController.swift */,
 				2CC1BD6D265C1005002035EA /* Main.storyboard */,
 				2CC1BD70265C1006002035EA /* Assets.xcassets */,
 				2CC1BD72265C1006002035EA /* LaunchScreen.storyboard */,
@@ -206,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC1BD6C265C1005002035EA /* SearchTableViewController.swift in Sources */,
+				2CA76083265D4CA10045545A /* SearchTableViewCell.swift in Sources */,
 				2CC1BD68265C1005002035EA /* AppDelegate.swift in Sources */,
 				2CC1BD6A265C1005002035EA /* SceneDelegate.swift in Sources */,
 			);
